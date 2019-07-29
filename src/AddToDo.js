@@ -91,6 +91,7 @@ export default class AddToDo extends Component{
                     < ToDoList 
                     todos={this.state.todos} 
                     onClick={(i) => this.removeToDo(i)}
+                    filterValue = {this.state.filterInput}
                     />
                 </div>
             </div>
